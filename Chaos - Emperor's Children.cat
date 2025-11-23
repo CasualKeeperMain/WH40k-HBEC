@@ -1587,408 +1587,6 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chaos Terminators" hidden="false" id="5926-4deb-a85d-c73a" collective="false">
-      <modifiers>
-        <modifier type="set" value="360" field="51b2-306e-1021-d207">
-          <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="5926-4deb-a85d-c73a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile name="Lethal Obsession" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9123-44f5-7680-f937">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time this unit is selected to shoot, if it makes one or more shooting attacks and all of those attacks target the same enemy unit, until the end of the turn, each time this unit declares a charge, if that enemy unit is a target of that charge, you can re-roll the Charge roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Chaos Terminators" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a12e-14d9-712c-e26e">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ef95-cb2b-c09f-06bc">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 4+ invulnerable save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Deep Strike" id="85fc-abb0-e819-0bc8" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
-        <infoLink name="Thrill Seekers" id="f84a-2783-fa68-2bf3" hidden="false" type="rule" targetId="1674-23e6-eacf-9624"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Infantry" hidden="false" id="36f6-422b-4dd1-782f" targetId="cf47-a0d7-7207-29dc" primary="true"/>
-        <categoryLink name="Chaos" hidden="false" id="52e4-993c-b92f-bc95" targetId="4c00-2578-faf5-6918" primary="false"/>
-        <categoryLink name="Terminator" hidden="false" id="6c6b-a7ad-51d6-2467" targetId="740a-892c-8958-defa" primary="false"/>
-        <categoryLink name="Faction: Emperor&apos;s Children" hidden="false" id="91d2-6050-7001-8ee7" targetId="31bb-7d77-943e-94bd" primary="false"/>
-        <categoryLink name="Slaanesh" hidden="false" id="f6a0-f94f-5837-bcdc" targetId="b2a9-ede5-7a83-4da8" primary="false"/>
-        <categoryLink name="Terminator Squad" hidden="false" id="b70c-0301-f1ba-c669" targetId="bca0-5ff4-61e3-e53b" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="4 Terminators" id="7059-5f21-88e3-3c6b" hidden="false" collective="false" import="true" defaultSelectionEntryId="d30b-b831-35ff-d173">
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7ff0-87b4-9381-39c4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="3372-c961-5c10-9847" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="Accursed weapon and combi-bolter" hidden="false" id="4a52-6694-b18b-54aa" collective="false">
-              <constraints>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="3dfd-adf8-7979-840f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Combi-bolter" hidden="false" id="6e74-6bfd-720b-0193" collective="false" targetId="02c9-ea19-b105-af58" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6baf-6357-6dd7-61e7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4886-6c07-5319-6502" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Accursed weapon" hidden="false" id="737e-972c-7630-4d66" collective="false" targetId="37f9-08dc-948b-7a0b" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="219f-d91f-8a7b-55d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Accursed weapon and combi-weapon" hidden="false" id="dcc8-aa7a-d2d8-3439" collective="false">
-              <constraints>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="2f2f-f691-a190-b87f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Accursed weapon" hidden="false" id="10b2-bf3c-b41e-d1cb" collective="false" targetId="37f9-08dc-948b-7a0b" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b50-dacf-fb0e-5990" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Combi-weapon" hidden="false" id="8fa5-54c3-11d8-5ea5" collective="false" targetId="7d1a-fb5c-9d3b-fca8" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fae7-a89e-a9a2-e799" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Power fist and combi-weapon" hidden="false" id="b6be-5ffd-225e-84f0" collective="false">
-              <constraints>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="36c7-c7e9-efae-79af" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Power fist" hidden="false" id="ffe5-8a17-6949-f033" collective="false" targetId="d2dc-a1d1-3834-ffb6" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6055-88d5-8392-7c6d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Combi-weapon" hidden="false" id="49dd-46c7-418a-9640" collective="false" targetId="7d1a-fb5c-9d3b-fca8" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1ab-392f-1559-6621" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Chainfist and combi-bolter" hidden="false" id="956e-421b-159a-4a41" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b11-d3e8-0aaa-be5b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Chainfist" hidden="false" id="7238-1ff7-938a-3b33" collective="false" targetId="5896-a17e-58be-c2e9" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9dd0-047a-8a17-2b43" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Combi-bolter" hidden="false" id="1670-82f6-8769-af6c" collective="false" targetId="02c9-ea19-b105-af58" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2afb-5a65-8e2e-072c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Heavy weapon" hidden="false" id="a6f3-e4f2-481d-7cf5" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="929c-3c46-413a-abb1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Ranged weapon" id="0cfc-de60-32b8-fdf8" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="caa3-60fb-bd15-3f3c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4c8-05b3-006d-bf50" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="67b2-85df-2416-e2c1" collective="false">
-                      <profiles>
-                        <profile name="Heavy flamer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cd0f-79ca-725e-bb5b">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Ignores Cover" id="ce03-64d6-3209-03bf" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
-                        <infoLink name="Torrent" id="5700-537d-7312-5bd1" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Reaper autocannon" hidden="false" id="6d30-9591-4f61-5eb0" collective="false">
-                      <profiles>
-                        <profile name="Reaper autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="00bd-d30d-1bf9-e96a">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Sustained Hits 1</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Devastating Wounds" id="ef5c-5030-a7e3-4ae5" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-                        <infoLink name="Sustained Hits" id="8688-1990-1006-0f08" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Melee weapon" id="a186-c722-12f3-0283" hidden="false" collective="false" import="true" defaultSelectionEntryId="1923-7bd-4a79-35be">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c06b-8a92-f722-18f9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="050e-e92a-ab8a-f80a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Accursed weapon" hidden="false" id="8aed-68aa-c825-f692" collective="false">
-                      <infoLinks>
-                        <infoLink name="Accursed weapon" id="c30b-461c-bfc0-24ff" hidden="false" targetId="bec5-9e9c-b187-c1c0" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink import="true" name="Chainfist" hidden="false" id="1f9a-6070-8127-8306" collective="false" targetId="5896-a17e-58be-c2e9" type="selectionEntry"/>
-                    <entryLink import="true" name="Power fist" hidden="false" id="54b7-0afb-16c7-368f" collective="false" targetId="d2dc-a1d1-3834-ffb6" type="selectionEntry"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Power fist and combi-bolter" hidden="false" id="0008-11d1-562a-f3cb" collective="false">
-              <entryLinks>
-                <entryLink import="true" name="Combi-bolter" hidden="false" id="9fa3-b970-491e-79a4" collective="false" targetId="02c9-ea19-b105-af58" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a021-7466-e8e5-61d2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Power fist" hidden="false" id="af23-8e1e-17e3-b2e1" collective="false" targetId="d2dc-a1d1-3834-ffb6" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c94-b32b-dfb1-afe0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6f09-8dce-5bd7-168f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Chainfist and combi-weapon" hidden="false" id="a832-2d33-d1ee-ff41" collective="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99ab-de9c-2660-318a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Chainfist" hidden="false" id="68b7-6bb3-873d-b1fb" collective="false" targetId="5896-a17e-58be-c2e9" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="340a-dc28-7b85-e7ee" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Combi-weapon" hidden="false" id="e311-b7c3-94fa-c8e0" collective="false" targetId="7d1a-fb5c-9d3b-fca8" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60c2-5b8c-b097-49fe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Paired accursed weapons" hidden="false" id="5c7c-732c-3962-b336">
-              <entryLinks>
-                <entryLink import="true" name="Paired accursed weapons" hidden="false" id="add2-fa99-4f00-2911" type="selectionEntry" targetId="bab4-f1b2-607d-7508">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8bd7-a109-dcab-ae96" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9fd-3d37-1f3f-5fb3" includeChildSelections="true"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="170"/>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-      </costs>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="6f78-e653-892f-d8d9" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Terminator Champion" hidden="false" id="72a1-b5b7-c3e8-9c1e">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a2b-c695-510b-48bb-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a2b-c695-510b-48bb-max" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Weapons" id="958b-6b8b-f6a3-8d3f" hidden="false" defaultSelectionEntryId="a2e4-069e-0531-d6fb">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Accursed weapon and combi-bolter" hidden="false" id="a2e4-069e-0531-d6fb" collective="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Combi-bolter" hidden="false" id="97be-b392-b728-39b0" collective="false" targetId="02c9-ea19-b105-af58" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db60-369d-9452-4755" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3983-d7fc-90b6-12e8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Accursed weapon" hidden="false" id="59a7-f01a-8fec-31b2" collective="false" targetId="37f9-08dc-948b-7a0b" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf49-b78a-f31e-cc47" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Accursed weapon and combi-weapon" hidden="false" id="efa5-8832-728f-9c4d" collective="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Accursed weapon" hidden="false" id="a6e1-ad2c-d24b-8bbc" collective="false" targetId="37f9-08dc-948b-7a0b" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b81-0fdb-bded-0816" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="9593-1118-b322-a15f" collective="false" targetId="7d1a-fb5c-9d3b-fca8" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="899f-759a-b0a8-5010" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Chainfist and combi-bolter" hidden="false" id="b257-7382-1d29-18f2" collective="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Chainfist" hidden="false" id="557f-81c6-26fa-d1be" collective="false" targetId="5896-a17e-58be-c2e9" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d88c-d1c4-0521-032f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Combi-bolter" hidden="false" id="802e-2746-d03c-01e3" collective="false" targetId="02c9-ea19-b105-af58" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9119-e4a4-b15f-aa32" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Chainfist and combi-weapon" hidden="false" id="cd47-c2ba-98d1-3861" collective="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Chainfist" hidden="false" id="d48d-8159-d84f-9ccf" collective="false" targetId="5896-a17e-58be-c2e9" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1cd0-8757-a3e2-28c6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="a43c-e7df-b32f-d547" collective="false" targetId="7d1a-fb5c-9d3b-fca8" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fffe-39ef-0999-89eb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power fist and combi-bolter" hidden="false" id="246d-f60a-371e-199c" collective="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Combi-bolter" hidden="false" id="b016-a9fd-cc57-0140" collective="false" targetId="02c9-ea19-b105-af58" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ec2-0b4f-92eb-a102" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Power fist" hidden="false" id="a43f-7a9d-8c8e-95c8" collective="false" targetId="d2dc-a1d1-3834-ffb6" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be31-fb1c-bc42-22ef" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power fist and combi-weapon" hidden="false" id="3f1b-2868-8fb6-03d6" collective="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Power fist" hidden="false" id="3e67-0bf3-6d99-8945" collective="false" targetId="d2dc-a1d1-3834-ffb6" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbc7-1ce3-b34b-28ea" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="932a-e708-c70e-b379" collective="false" targetId="7d1a-fb5c-9d3b-fca8" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e3a7-bc23-3a44-843d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink import="true" name="Paired accursed weapons" hidden="false" id="5b6a-92f1-2f04-0cbb" type="selectionEntry" targetId="bab4-f1b2-607d-7508"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="04f8-9c5b-b269-2a5f-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04f8-9c5b-b269-2a5f-max" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Accursed weapon" hidden="false" id="37f9-08dc-948b-7a0b" collective="true">
       <comment>Collective</comment>
       <constraints>
@@ -1996,39 +1594,6 @@
       </constraints>
       <infoLinks>
         <infoLink name="Accursed weapon" id="cda5-9a2e-0b76-c95f" hidden="false" targetId="bec5-9e9c-b187-c1c0" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Paired accursed weapons" hidden="false" id="bab4-f1b2-607d-7508" collective="true">
-      <comment>Collective</comment>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9534-e302-7496-561e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-        <constraint type="max" value="1" field="selections" scope="5926-4deb-a85d-c73a" shared="true" id="b2be-1011-530b-a0b1" includeChildSelections="true"/>
-      </constraints>
-      <profiles>
-        <profile name="Paired accursed weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9b7f-1370-e41c-3e5c">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="4" field="2337-daa1-6682-b110">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9a91-8185-2e0d-5153" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Twin-linked" id="156c-4881-e68d-36df" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4187,7 +3752,6 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
         <categoryLink name="Grenades" hidden="false" id="727a-039e-c37a-4c2b" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Chaos" hidden="false" id="db6e-ce2c-f73f-b8f9" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Slaanesh" hidden="false" id="71fd-9245-d93e-1e9d" targetId="b2a9-ede5-7a83-4da8" primary="false"/>
-        <categoryLink name="Faction: Emperor&apos;s Children" hidden="false" id="73bb-4847-336f-b080" targetId="31bb-7d77-943e-94bd" primary="false"/>
         <categoryLink name="noxious blades" hidden="false" id="0f50-8c4c-09f2-93fd" targetId="6ea2-da70-50ef-d19c" primary="false"/>
       </categoryLinks>
     </selectionEntry>
@@ -4275,7 +3839,6 @@ No **^^Legions of Excess**^^ models from your army can be your **^^Warlord**^^.<
     <entryLink import="true" name="Tormentors" hidden="false" id="fa28-2905-8989-8a2b" type="selectionEntry" targetId="4494-dd7d-69f7-306c"/>
     <entryLink import="true" name="Infractors" hidden="false" id="1167-1f78-feed-c6ca" type="selectionEntry" targetId="e456-0afc-9b42-226c"/>
     <entryLink import="true" name="Flawless Blades" hidden="false" id="9f04-d6da-3dff-4d23" type="selectionEntry" targetId="183e-f3bb-3ce6-7b55"/>
-    <entryLink import="true" name="Chaos Terminators" hidden="false" id="8584-5fcd-53bf-7cc5" type="selectionEntry" targetId="5926-4deb-a85d-c73a"/>
     <entryLink import="true" name="Chaos Spawn" hidden="false" id="9759-acbf-5109-75a0" type="selectionEntry" targetId="896c-5816-3abd-5199"/>
     <entryLink import="true" name="Chaos Land Raider" hidden="false" id="ff50-aaa8-e1f0-0dbc" type="selectionEntry" targetId="f10c-5f3e-c09d-0b12"/>
     <entryLink import="true" name="Noise Marines" hidden="false" id="382e-7f67-4810-beef" type="selectionEntry" targetId="5817-0d6c-973c-68f8"/>
@@ -4288,6 +3851,7 @@ No **^^Legions of Excess**^^ models from your army can be your **^^Warlord**^^.<
     <entryLink import="true" name="Daemonettes" hidden="false" id="677d-06a1-c112-c044" type="selectionEntry" targetId="06f6-b870-4e43-4ed9"/>
     <entryLink import="true" name="Fiends" hidden="false" id="cf42-04fb-1da4-ce7c" type="selectionEntry" targetId="c2ca-f754-cc05-0743"/>
     <entryLink import="true" name="Seekers" hidden="false" id="2610-a708-7a64-1129" type="selectionEntry" targetId="c9df-2c38-25e5-ffc7"/>
+    <entryLink import="true" name="Noxious Blades" hidden="false" id="3f67-dcbf-da52-9ffa" type="selectionEntry" targetId="fb3b-a8ba-d9c6-02c4"/>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Plasma pistol" id="0cbe-31f4-e833-9ef4" hidden="false">
@@ -5090,7 +4654,7 @@ No **^^Legions of Excess**^^ models from your army can be your **^^Warlord**^^.<
             <profile name="Fleeting Happiness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="137c-e91b-9434-d983">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game: Improve the attack characteristic of melee weapons equipped by the bearer by 3.
-Or, If the bearer is inside of your army&apos;s mesmerising dream, improve the ap and damage characteristics by 1 of melee weapons they are equipped with by 1. </characteristic>
+Or, If the bearer is inside of your army&apos;s mesmerising dream, improve the ap and damage characteristics by 1 of melee weapons they are equipped with by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5118,7 +4682,7 @@ Or, If the bearer is inside of your army&apos;s mesmerising dream, improve the a
           <profiles>
             <profile name="Everlasting Hatred" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c0de-e133-f5df-b1b1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst the bearer is within your army&apos;s mesmerising dream, each time they make an advance or charge roll, add 1 to the result. </characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whilst the bearer is within your army&apos;s mesmerising dream, each time they make an advance or charge roll, add 1 to the result.</characteristic>
               </characteristics>
             </profile>
           </profiles>
