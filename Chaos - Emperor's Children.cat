@@ -3588,7 +3588,7 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Noxious Blades" hidden="false" id="fb3b-a8ba-d9c6-02c4">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Blade Master" hidden="false" id="8a8e-8965-dd9f-0f87">
+        <selectionEntry type="model" import="true" name="Blade Master" hidden="false" id="8a8e-8965-dd9f-0f87">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Syringe Pistol" hidden="false" id="cd92-9d02-1006-877a">
               <profiles>
@@ -3653,7 +3653,7 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
       <selectionEntryGroups>
         <selectionEntryGroup name="4-9 Noxious Blades" id="b102-5098-211e-1548" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Noxious Blades" hidden="false" id="aff9-98f6-d8df-9e3a">
+            <selectionEntry type="model" import="true" name="Noxious Blades" hidden="false" id="aff9-98f6-d8df-9e3a">
               <profiles>
                 <profile name="Noxious Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="93a6-b0fb-7042-4c28">
                   <characteristics>
@@ -3686,7 +3686,7 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
                 </entryLink>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Noxious Blades w/ Syringe Pistol" hidden="false" id="1b2a-cd24-c7e5-b056">
+            <selectionEntry type="model" import="true" name="Noxious Blades w/ Syringe Pistol" hidden="false" id="1b2a-cd24-c7e5-b056">
               <profiles>
                 <profile name="Syringe Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9943-b209-79c2-e430">
                   <characteristics>
