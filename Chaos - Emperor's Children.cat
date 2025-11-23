@@ -3586,7 +3586,7 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Noxious Blades" hidden="false" id="fb3b-a8ba-d9c6-02c4">
+    <selectionEntry type="unit" import="true" name="Noxious Blades" hidden="false" id="fb3b-a8ba-d9c6-02c4">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Blade Master" hidden="false" id="8a8e-8965-dd9f-0f87">
           <selectionEntries>
