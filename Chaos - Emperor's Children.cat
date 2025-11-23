@@ -3667,44 +3667,49 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
                   </characteristics>
                 </profile>
               </profiles>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de9a-e53a-c7ba-85fd"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d5d-dd45-091f-2a32"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Pistols" id="b969-5958-4df1-adfc" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Syringe Pistol" hidden="false" id="1b2a-cd24-c7e5-b056">
-                  <profiles>
-                    <profile name="Syringe Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9943-b209-79c2-e430">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">2</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Anti-Infantry 3+, Devastating Wounds</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="df5d-8055-fa9c-8132" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
               <entryLinks>
-                <entryLink import="true" name="Bolt pistol" hidden="false" id="ff42-9879-14b4-19c2" type="selectionEntry" targetId="3469-166f-44f3-51b8">
+                <entryLink import="true" name="Bolt pistol" hidden="false" id="1f86-230c-d718-32ce" type="selectionEntry" targetId="3469-166f-44f3-51b8">
                   <constraints>
-                    <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="393e-d66a-6c13-2acc" includeChildSelections="false"/>
-                    <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="4d89-580a-2449-60f9" includeChildSelections="false"/>
+                    <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="7bda-fade-823c-fee6" includeChildSelections="false"/>
+                    <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="b6ec-1481-9b98-9e37" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Noxious Blades w/ Syringe Pistol" hidden="false" id="1b2a-cd24-c7e5-b056">
+              <profiles>
+                <profile name="Syringe Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9943-b209-79c2-e430">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">2</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Anti-Infantry 3+, Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Noxious Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="202a-a6fd-fa4b-bfd2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="df5d-8055-fa9c-8132" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc29-86c9-2660-1635"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a551-cb81-b096-ad85"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
@@ -3732,6 +3737,8 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
       </costs>
       <constraints>
         <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="815a-262e-cb13-3be6" includeChildSelections="true"/>
+        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="3132-1183-092a-9afe"/>
+        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="39b4-5485-25f6-ee97"/>
       </constraints>
       <profiles>
         <profile name="Noxious Blades" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b703-c067-298a-20e9">
