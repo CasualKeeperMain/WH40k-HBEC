@@ -4183,12 +4183,12 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
       </profiles>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="9e79-8ddb-67c0-5616" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink name="Battleline" hidden="false" id="de99-97b1-73c7-777b" targetId="e338-111e-d0c6-b687" primary="false"/>
+        <categoryLink name="Battleline" hidden="false" id="de99-97b1-73c7-777b" targetId="e338-111e-d0c6-b687" primary="true"/>
         <categoryLink name="Grenades" hidden="false" id="727a-039e-c37a-4c2b" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Chaos" hidden="false" id="db6e-ce2c-f73f-b8f9" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Slaanesh" hidden="false" id="71fd-9245-d93e-1e9d" targetId="b2a9-ede5-7a83-4da8" primary="false"/>
         <categoryLink name="Faction: Emperor&apos;s Children" hidden="false" id="73bb-4847-336f-b080" targetId="31bb-7d77-943e-94bd" primary="false"/>
-        <categoryLink name="noxious blades" hidden="false" id="c5ca-202b-33e8-3e90" targetId="6ea2-da70-50ef-d19c" primary="false"/>
+        <categoryLink name="noxious blades" hidden="false" id="0f50-8c4c-09f2-93fd" targetId="6ea2-da70-50ef-d19c" primary="false"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
