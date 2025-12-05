@@ -3863,6 +3863,7 @@ No **^^Legions of Excess**^^ models from your army can be your **^^Warlord**^^.<
     <entryLink import="true" name="Daemonettes" hidden="false" id="677d-06a1-c112-c044" type="selectionEntry" targetId="06f6-b870-4e43-4ed9"/>
     <entryLink import="true" name="Fiends" hidden="false" id="cf42-04fb-1da4-ce7c" type="selectionEntry" targetId="c2ca-f754-cc05-0743"/>
     <entryLink import="true" name="Seekers" hidden="false" id="2610-a708-7a64-1129" type="selectionEntry" targetId="c9df-2c38-25e5-ffc7"/>
+    <entryLink import="true" name="Noxious Blades" hidden="false" id="fa13-a1d1-b7e2-1ad1" type="selectionEntry" targetId="84ad-c2cb-3e05-9e58"/>
   </entryLinks>
   <sharedInfoGroups>
     <infoGroup name="Plasma pistol" id="0cbe-31f4-e833-9ef4" hidden="false">
