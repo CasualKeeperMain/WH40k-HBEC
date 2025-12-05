@@ -3567,10 +3567,10 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
         <categoryLink name="Grenades" hidden="false" id="1c60-9175-9bdc-bc0a" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Chaos" hidden="false" id="4009-e12e-9658-cd62" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Slaanesh" hidden="false" id="a0e2-90e4-2c68-4a74" targetId="b2a9-ede5-7a83-4da8" primary="false"/>
-        <categoryLink name="Infractors" hidden="false" id="96ae-fc60-09ff-25bf" targetId="ff6d-0152-7e0e-7e88" primary="false"/>
+        <categoryLink name="Noxious Blades" hidden="false" id="1780-53a6-0b7c-d054" targetId="0ebb-64db-d599-2d9a" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Infractors" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9ceb-779a-0670-d9c6">
+        <profile name="Noxious Blades" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9ceb-779a-0670-d9c6">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
@@ -3824,6 +3824,7 @@ No **^^Legions of Excess**^^ models from your army can be your **^^Warlord**^^.<
     <categoryEntry name="Summoned" id="38a2-f283-606d-7a37" hidden="false"/>
     <categoryEntry name="Seekers" id="15d7-63fa-2466-d392" hidden="false"/>
     <categoryEntry name="noxious blades" id="6ea2-da70-50ef-d19c" hidden="false"/>
+    <categoryEntry name="Noxious Blades" id="0ebb-64db-d599-2d9a" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Thrill Seekers" id="1674-23e6-eacf-9624" hidden="false">
