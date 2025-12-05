@@ -3720,28 +3720,28 @@ Each time an emperors children unit makes an attack, reroll a hit roll of 1. If 
                     </profile>
                   </profiles>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Noxious Blades" hidden="false" id="8f48-9bcd-c7f7-2357">
+                  <profiles>
+                    <profile name="Noxious Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1f5c-1d77-f510-f0ba">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a482-473c-0db2-90a2" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="08d0-85e2-28ef-40c4" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="294b-e9b2-5e46-eec3" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Noxious Blades" hidden="false" id="d60b-818a-62a7-a74f">
-              <profiles>
-                <profile name="Noxious Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="10c1-a5d3-bb92-a5ef">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ded-893a-3468-7229" includeChildSelections="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d24-662d-32e5-7c9d" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
